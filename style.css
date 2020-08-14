@@ -1,0 +1,211 @@
+/* --- General Layout  ---- */
+html {
+    margin: 0px;
+    padding: 0px;
+    background-color: #49D0FF;
+}
+
+body {
+    background-color: #49D0FF;
+    margin: 0px;
+}
+
+header {
+    background-color: #566171;
+    padding: 30px;
+}
+
+Header h1 {
+    margin: 0px;
+    color: #ffecdb;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+main {
+    color: #ffecdb;
+}
+
+/*--- header formatting--*/
+
+header nav {
+    /* changed to flex bc default is block */
+    display: flex;
+    /* used to center elements defined as 'display: flex' */
+    justify-content: center;
+}
+
+header nav ul {
+    /* changed to flex bc default is block */
+    display: flex;
+    /* removes default bullet points */
+    list-style: none;
+    /* removes the default padding to the left  */
+    padding-left: 0;
+}
+
+header nav ul li a {
+    /* changed to flex bc default is block */
+    display: flex;
+    /* removes defualt underline from link */
+    text-decoration: none;
+    /* color of link: white */
+    color: #ffecdb;
+    /* makes gap between links */
+    margin: 0 20px 0 0;
+    /* pushes links down by 50pixles */
+    padding-top: 50px;
+}
+
+header nav ul li:last-child a {
+    /* removes the margin to the right of the last
+    anchor tag so that nav appears centered  */
+    margin-right: 0;
+}
+
+/*-- Font --*/
+
+h2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 40px;
+}
+
+h3,
+p,
+a {
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+form,
+label {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+}
+
+/* --Images-- */
+.item img {
+    display: flex;
+    width: 100%;
+    margin: 0px;
+}
+
+/* project images */
+img.quiz {
+    width: 100%;
+    position: relative;
+    display: flex;
+    /* align-content: left; */
+    margin: 0px;
+}
+
+img.books {
+    width: 100%;
+    display: flex;
+    flex: 100px;
+    /* justify-content: center; */
+    margin-left: 0px;
+}
+
+/* youtube videos */
+
+.group4 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* --List Item Stylings--- */
+
+ul li {
+    /* display: flex; */
+    /* removes default bullet points */
+    list-style: none;
+    /* removes defualt underline from link */
+    text-decoration: none;
+}
+
+ul li a {
+    /* changed to flex bc default is block */
+    display: flex;
+
+
+    /* color of link: white */
+    color: #ffecdb;
+    /* makes gap between links */
+    margin: 0 20px 0 0;
+    text-align: center;
+}
+
+/* form styling */
+form input,
+form textarea {
+  width: 60%;
+  /* background-color: #566171; */
+  height: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:#ffecdb;;
+  justify-content: center;
+  
+}
+
+label{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 32px;
+  color:#ffecdb;
+
+}
+
+form textarea {
+  height: 160px;
+}
+
+
+/*Button Styling */
+button {
+    padding: 10px 16px;
+    border-radius: 20px;
+    border: solid #ffecdb;
+    background-color: transparent;
+    color: #ffecdb;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin: 20px;
+}
+
+button:hover {
+    background-color: black
+}
+
+
+/*---Media Query --- */
+
+@media all and (min-width: 800px) {
+    header h1 {
+        font-size: 80px;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+
+    h3 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 28px;
+    }
+
+    form {
+        font-size: 48px;
+    }
+
+}
