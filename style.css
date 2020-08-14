@@ -130,6 +130,8 @@ ul li {
     list-style: none;
     /* removes defualt underline from link */
     text-decoration: none;
+    text-align: center;
+    font-size: 28px;
 }
 
 ul li a {
