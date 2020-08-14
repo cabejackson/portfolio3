@@ -1,7 +1,7 @@
 # Caleb Jackson Portfolio
 
 This is my first portfolio, I can't wait to add more projects as I learn more!
-I utilized css and JavaScript w/in this project.
+I utilized css and HTML within this project.
 
 ## About Me
 I use he/they pronouns. Based in D.C. I love reading and code.
