@@ -18,7 +18,7 @@ header {
 Header h1 {
     margin: 0px;
     color: #ffecdb;
-    font-size: 50px;
+    font-size: 20px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -116,12 +116,12 @@ img.books {
 
 /* youtube videos */
 
-.group4 {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-}
+//.group4 {
+   //display: flex;
+    //flex-direction: column;
+    //text-align: center;
+    //justify-content: center;
+//}
 
 /* --List Item Stylings--- */
 
