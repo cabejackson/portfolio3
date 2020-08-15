@@ -18,7 +18,7 @@ header {
 Header h1 {
     margin: 0px;
     color: #ffecdb;
-    font-size: 20px;
+    font-size: 50px;
     display: flex;
     flex-direction: column;
     text-align: center;
